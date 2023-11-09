@@ -1,0 +1,63 @@
+.courses {
+  padding-inline: 16.5rem;
+  padding-bottom: 14rem;
+  background: var(--light-blue-gradient);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 3rem;
+  row-gap: 6.2rem;
+}
+
+.card {
+  position: relative;
+  padding-inline: 3.2rem;
+  padding-top: 6.4rem;
+  padding-bottom: 4.4rem;
+  border-radius: 20px;
+  background-color: #fff;
+  color: var(--grey);
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.card--special {
+  color: #fff;
+  background: var(--pink-gradient);
+}
+
+.card-header {
+  font-size: 3.2rem;
+  font-weight: 800;
+  padding-right: 4.6rem;
+}
+
+.card-title {
+  font-size: 2.4rem;
+  color: var(--blue-dark);
+}
+
+.card-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%) translateX(50%);
+}
+
+.card-link:link,
+.card-link:visited {
+  margin-top: auto;
+  display: block;
+
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--pink);
+}
+
+.card-link:hover,
+.card-link:active {
+  color: var(--pink-light);
+}

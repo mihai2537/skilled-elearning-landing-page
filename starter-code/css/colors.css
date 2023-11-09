@@ -1,0 +1,14 @@
+:root {
+  /* Primary */
+  --blue-light: #666ca3;
+  --blue-dark: #13183f;
+  --pink: #f74780;
+  --pink-light: #ffa7c3;
+  /* Neutral */
+  --grey: #83869a;
+  --white: #fff;
+  /* Gradients */
+  --pink-gradient: linear-gradient(to top, #f02aa6, #ff6f48);
+  --blue-gradient: linear-gradient(to bottom, #4851ff, #f02aa6);
+  --light-blue-gradient: linear-gradient(to bottom, #fff, #f0f1ff);
+}

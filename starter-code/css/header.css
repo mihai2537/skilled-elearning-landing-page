@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+  padding-inline: 16.5rem;
+  overflow: hidden;
+}
+
+.nav {
+  padding-top: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17.2rem;
+}
+
+.btn--header {
+  background-color: var(--blue-dark);
+  color: #fff;
+  z-index: 2;
+}
+
+.btn--header:hover {
+  background-color: var(--blue-light);
+}

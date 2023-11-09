@@ -1,0 +1,40 @@
+.footer {
+  background-color: var(--blue-dark);
+  padding-inline: 16.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 3rem;
+}
+
+.btn--footer {
+  background: var(--blue-gradient);
+  color: #fff;
+  position: relative;
+}
+
+.button-container {
+  position: relative;
+}
+
+.btn--footer::before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    var(--blue-gradient);
+  border-radius: 30px;
+
+  transition: all 200ms;
+}
+
+.btn--footer:hover::before {
+  opacity: 0.5;
+}

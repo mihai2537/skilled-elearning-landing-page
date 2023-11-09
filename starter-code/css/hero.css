@@ -1,0 +1,38 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-left {
+  margin-bottom: 22.6rem;
+}
+
+.hero-title {
+  font-size: 5.6rem;
+  font-weight: 800;
+  color: var(--blue-dark);
+  margin-bottom: 3rem;
+}
+
+.hero-body {
+  font-size: 1.8rem;
+  color: var(--grey);
+  padding-right: 14rem;
+  margin-bottom: 4.4rem;
+}
+
+.btn--hero {
+  color: #fff;
+  background: var(--pink-gradient);
+}
+
+.btn--hero:hover {
+  opacity: 50%;
+}
+
+.hero-img {
+  /* Relative to .header */
+  position: absolute;
+  top: -158px;
+  right: -354px;
+}
