@@ -88,3 +88,51 @@
     font-size: 1.6rem;
   }
 }
+
+/* Below 668 px  - Preparing for mobile*/
+@media (max-width: 41.75em) {
+  .nav {
+    margin-bottom: 3.8rem;
+  }
+  .center-padding {
+    padding-inline: 1.6rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .hero-left {
+    margin-bottom: 4rem;
+  }
+  .hero-img {
+    max-width: 100%;
+    position: static;
+    top: 0;
+    right: 0;
+  }
+}
+
+/* Bellow 500  - Mobile*/
+@media (max-width: 31.25em) {
+  .courses {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+  }
+
+  .card--special {
+    padding: 2.4rem 2.9rem 3.2rem 2.8rem;
+  }
+
+  .card {
+    display: block;
+    padding-inline: 2.8rem;
+  }
+
+  .card-title {
+    margin-bottom: 1.6rem;
+  }
+
+  .card-text {
+    margin-bottom: 2.4rem;
+  }
+}
