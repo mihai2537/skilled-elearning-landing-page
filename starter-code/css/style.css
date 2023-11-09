@@ -38,6 +38,10 @@ body {
   margin-inline: auto;
 }
 
+.center-padding {
+  padding-inline: 16.5rem;
+}
+
 .btn {
   font-family: inherit;
   font-size: inherit;

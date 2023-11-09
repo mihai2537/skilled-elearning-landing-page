@@ -27,9 +27,10 @@
     <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/courses.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/queries.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header center-padding">
       <nav class="nav">
         <svg
           class="header-logo"
@@ -63,6 +64,12 @@
             srcset="assets/image-hero-mobile.png"
             media="(max-width: 600px)"
           />
+          <!-- Below 972px -->
+          <source
+            srcset="assets/image-hero-tablet.png"
+            media="(max-width: 60.75em)"
+          />
+
           <img
             class="hero-img"
             src="assets/image-hero-desktop.png"
@@ -72,7 +79,7 @@
       </section>
     </header>
     <main>
-      <section class="courses">
+      <section class="courses center-padding">
         <article class="card card--special">
           <h2 class="card-header">Check out our most popular courses!</h2>
         </article>
@@ -237,7 +244,7 @@
         </article>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer center-padding">
       <svg
         class="footer-logo"
         width="112"
